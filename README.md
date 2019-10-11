@@ -23,8 +23,8 @@ In the code above, we create a new object called _object_, which is instantiated
 Topological spaces are made up of nodes instantiated from node templates, and links between nodes instantiated from link templates. 
     
     space = Topology(
-        node_template('position'),
-        link_template('distance'))
+        node_template=Template('position'),
+        link_template=Template('distance'))
 
 In the code above, we create a new topological space called _space_, with a node template with attribute _position_ and link template with attribute _distance_. We instantiate node and link objects through _space_.
 
