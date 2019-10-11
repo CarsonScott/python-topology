@@ -51,7 +51,7 @@ As well as the link objects:
 
     space.get_link('a', 'b')
     
-We can also remove nodes:
+We can remove nodes:
 
     space.remove_node('a')
     
